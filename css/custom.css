@@ -289,9 +289,23 @@ header .navbar.sticky-header{
     top: 0px;
     left: 0;
     width: 100%;
-    background: url(../images/header-bg.jpg) no-repeat top center;
-    background-size: cover;
+    
     padding: 220px 0 120px;
+}
+.banner::before{
+	content: "";
+	background: url(../images/header-bg.webp) no-repeat top center;
+	
+    
+
+	background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.2;
+
 }
 
 .banner-content h2{
@@ -315,7 +329,7 @@ header .navbar.sticky-header{
 }
 
 .banner-content p{
-	color: #707070;
+	color: #cdcdcd;
 	font-size: 20px;
 	font-weight: 300;
 	margin-bottom: 1.5em;
