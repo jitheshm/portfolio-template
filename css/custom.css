@@ -7,12 +7,15 @@
 /************************************/
 /***** 	    General css		     ****/
 /************************************/
-
+html,body{
+	overflow-x:hidden
+}
 body{
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	background: #111;
 	color: #707070;
+	
 }
 
 h1,
